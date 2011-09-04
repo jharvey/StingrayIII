@@ -1,0 +1,23 @@
+Per online calculator found here http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator,,,
+
+++++++++++++++++++++++++++++++++++++++,,,
+9 mill wide trace (KICAD help file class 4 IPC class?),,,
+
+current .8201 A,,current .4101 A,
+1 oz/ft^2,,1 oz/ft^2,
+temp rise 10 c,,temp rise 10 c,
+ambient 25 c,,ambient 25 c,
+1 inch long,,1 inch long,
+,,,
+--- for and external trace---,,--- for an internal trace---,
+internal trace ,,internal trace ,
+23.4,mill,,mill
+0.0216,ohm,,ohm
+0.0177,V drop,,V drop
+0.0145,Watts,,Watts
+,,,
+external trace ,,external trace ,
+9,mill,,mill
+0.0561,ohm,,ohm
+0.0460,V drop,,V drop
+0.0377,Watts,,Watts

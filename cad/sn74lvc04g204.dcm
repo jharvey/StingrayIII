@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: 17/9/2006-07:04:53
+#
+$CMP 74HC04
+D Hex Inverseur
+K HCMOS not inv
+$ENDCMP
+#
+$CMP 74LS14
+D Hex inverseur schmitt trigger
+K TTL not inv
+$ENDCMP
+#
+$CMP SN74LVC04G204
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+#End Doc Library

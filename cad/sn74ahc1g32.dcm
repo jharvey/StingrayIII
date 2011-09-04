@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 18/9/2006-06:42:53
+#
+$CMP SN74AHC1G32
+D Single Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
+#End Doc Library

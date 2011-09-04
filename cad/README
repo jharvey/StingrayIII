@@ -1,0 +1,7 @@
+Test Points
+
+TP1 - CLKOUT Firmware controlled,tied to SYSCLK after firmware boots (e.g.32 MHz square wave)
+TP2 - 4 MHz clock reference (0-1.8V ptp square wave)
+TP3 - RESET - After PORST (TP5) goes high on power up, RESET should be released after 4096 clock cycles (TP2).
+TP4 - Analog to Digital reference voltage (3.3V).
+PT5 - PORST stays low until power supply has stabablized.

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 27/12/2006-02:17:33
+#
+$CMP ULN2074B
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 4/9/2006-18:47:48
+#
+$CMP LM2936Z-3.3
+D 3.3V Ultra Low Quiescent LDO Voltage Regulator
+K REGULATOR 3.3V
+$ENDCMP
+#
+#End Doc Library

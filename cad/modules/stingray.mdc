@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  14/05/2011 20:20:22
+#
+$MODULE R160
+Li R160
+Cd Resitance 3 pas
+Kw R
+$EndMODULE
+#
+$MODULE R3_SM0805
+Li R3_SM0805
+Cd Resitance 3 pas
+Kw R
+$EndMODULE
+#
+$EndLIBDOC

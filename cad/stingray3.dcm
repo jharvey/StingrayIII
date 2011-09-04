@@ -1,0 +1,110 @@
+EESchema-DOCLIB  Version 2.0  Date: 23/7/2009-15:00:23
+#
+$CMP 27C1001
+D REPROM 128Ko
+K REPROM 128KO
+$ENDCMP
+#
+$CMP 27C4001
+D REPROM 512Ko
+K REPROM 512KO
+$ENDCMP
+#
+$CMP 29F040
+D RAM 512 Ko
+K RAM 512KO
+$ENDCMP
+#
+$CMP 628512
+D RAM 512 Ko
+K RAM 512KO
+$ENDCMP
+#
+$CMP 74HC245
+D Octal BUS Transceivers, 3 State out
+K HCMOS BUS 3State
+$ENDCMP
+#
+$CMP 74LS164
+D Shift Register 8 bits, parallel load
+K TTL SR SR8
+$ENDCMP
+#
+$CMP 74LVX4245
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+$ENDCMP
+#
+$CMP BC489A
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP CONN_14X2
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_24
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CONN_36
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CS1124
+D CS1124 Dual Variable Reluctance Interface
+K Variable Reluctance
+$ENDCMP
+#
+$CMP LM2936Z-3.3
+D 3.3V Ultra Low Quiescent LDO Voltage Regulator
+K REGULATOR 3.3V
+$ENDCMP
+#
+$CMP LP3982
+D MICROPOWER 300mA Regulator 
+K REGUL POWER  
+$ENDCMP
+#
+$CMP MC68HC912BC32
+D HCMC68HC12 a flash eprom interne
+$ENDCMP
+#
+$CMP SN74AHC1G32
+D Single Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
+$CMP SN74LVC04G204
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP SN74LVC1G04
+D Single Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP STR730FZ2T7
+K SRT730
+$ENDCMP
+#
+$CMP TPS733xx
+D MICROPOWER 300mA Regulator 
+K REGUL POWER  
+$ENDCMP
+#
+$CMP TPS793xx
+D MICROPOWER 300mA Regulator 
+K REGUL POWER  
+$ENDCMP
+#
+$CMP ULN2074B
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+#End Doc Library

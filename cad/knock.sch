@@ -1,0 +1,286 @@
+EESchema Schematic File Version 1
+LIBS:power,./sharkey,./stingray3,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,microchip,analog_switches,motorola,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,./stingray3.cache
+EELAYER 23  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 11 12
+Title "TPIC8101 TWO CHANNEL KNOCK SENSOR"
+Date "23 feb 2009"
+Rev "C"
+Comp "Copyright (C) 2009 by Pike Aerospace Research Corporation"
+Comment1 "[DRAFT]"
+Comment2 "STINGRAY III"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 5400 5000
+Wire Wire Line
+	5100 4550 5100 5000
+Wire Wire Line
+	5100 5000 7850 5000
+Connection ~ 7050 5000
+Wire Wire Line
+	7850 5000 7850 4900
+Connection ~ 7050 4400
+Wire Wire Line
+	7050 4500 7050 4000
+Connection ~ 7050 4100
+Wire Wire Line
+	7150 4100 7050 4100
+Wire Wire Line
+	6950 3900 7850 3900
+Wire Wire Line
+	7850 4400 7700 4400
+Wire Wire Line
+	4350 3750 4350 3650
+Wire Wire Line
+	4350 3750 4450 3750
+Wire Wire Line
+	4350 3400 4350 3300
+Wire Wire Line
+	4350 3400 4450 3400
+Connection ~ 4400 2650
+Wire Wire Line
+	4400 2900 4400 2200
+Wire Wire Line
+	4400 2200 4550 2200
+Connection ~ 5100 2200
+Wire Wire Line
+	5100 1800 5100 3050
+Wire Wire Line
+	5100 2200 4950 2200
+Wire Wire Line
+	4550 2650 4400 2650
+Connection ~ 5100 2650
+Wire Wire Line
+	4950 2650 5100 2650
+Wire Wire Line
+	5100 3050 5550 3050
+Wire Wire Line
+	3300 3650 3100 3650
+Wire Wire Line
+	3300 3300 3100 3300
+Wire Wire Line
+	6950 3050 8500 3050
+Wire Wire Line
+	6950 3200 8500 3200
+Wire Wire Line
+	6950 3300 8500 3300
+Wire Wire Line
+	6950 3400 8500 3400
+Wire Wire Line
+	6950 3500 8500 3500
+Wire Wire Line
+	6950 3600 8500 3600
+Wire Wire Line
+	6950 3700 8500 3700
+Wire Wire Line
+	3700 3650 3850 3650
+Wire Wire Line
+	3700 3300 3850 3300
+Wire Wire Line
+	4350 3300 5550 3300
+Wire Wire Line
+	4950 3400 5550 3400
+Wire Wire Line
+	4350 3650 5550 3650
+Wire Wire Line
+	5550 3750 4950 3750
+Connection ~ 5100 3550
+Wire Wire Line
+	5100 3550 5550 3550
+Connection ~ 5100 3950
+Wire Wire Line
+	5100 4150 5100 3200
+Wire Wire Line
+	5100 3200 5550 3200
+Wire Wire Line
+	5100 3950 5550 3950
+Wire Wire Line
+	5550 4050 5400 4050
+Wire Wire Line
+	7050 4000 6950 4000
+Wire Wire Line
+	7050 4400 7200 4400
+Wire Wire Line
+	7750 4100 7850 4100
+Connection ~ 7850 4100
+Wire Wire Line
+	7850 3900 7850 4500
+Connection ~ 7850 4400
+Wire Wire Line
+	7050 5150 7050 4900
+Wire Wire Line
+	5400 4050 5400 5000
+$Comp
+L C C1417
+U 1 1 49A24B1D
+P 7050 4700
+F 0 "C1417" H 7100 4800 50  0000 L C
+F 1 "22pF" H 7100 4600 50  0000 L C
+	1    7050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1418
+U 1 1 49A24B1A
+P 7850 4700
+F 0 "C1418" H 7900 4800 50  0000 L C
+F 1 "22pF" H 7900 4600 50  0000 L C
+	1    7850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X2
+U 1 1 49A24ACE
+P 7450 4100
+F 0 "X2" H 7450 4250 60  0000 C C
+F 1 "4MHz" H 7450 3950 60  0000 C C
+	1    7450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR069
+U 1 1 4590CACB
+P 5100 1800
+F 0 "#PWR069" H 5100 1900 30  0001 C C
+F 1 "VCC" H 5100 1900 30  0000 C C
+	1    5100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C853
+U 1 1 44EF369F
+P 4750 2200
+F 0 "C853" V 4800 2400 50  0000 L C
+F 1 "4.7uF" V 4650 2000 50  0000 L C
+	1    4750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 44EF3638
+P 4400 2900
+F 0 "#PWR070" H 4400 2900 30  0001 C C
+F 1 "GND" H 4400 2830 30  0001 C C
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C852
+U 1 1 44EF3625
+P 4750 2650
+F 0 "C852" V 4800 2850 50  0000 L C
+F 1 "100 nF" V 4650 2450 50  0000 L C
+	1    4750 2650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3100 3650 0    60   Input
+KNOCK_SENSE2
+Text GLabel 3100 3300 0    60   Input
+KNOCK_SENSE1
+Text GLabel 8500 3050 2    60   Output
+KNOCK_OUT
+Text GLabel 8500 3200 2    60   Output
+KNOCK_SDO
+Text GLabel 8500 3300 2    60   Input
+KNOCK_SDI
+Text GLabel 8500 3400 2    60   Input
+KNOCK_SCLK
+Text GLabel 8500 3500 2    60   Input
+KNOCK_CS
+Text GLabel 8500 3600 2    60   Input
+KNOCK_TEST
+Text GLabel 8500 3700 2    60   Input
+KNOCK_INIT_HOLD
+$Comp
+L C C856
+U 1 1 44EF31D4
+P 3500 3650
+F 0 "C856" V 3550 3500 50  0000 L C
+F 1 "C" V 3400 3500 50  0000 L C
+	1    3500 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C855
+U 1 1 44EF31D0
+P 3500 3300
+F 0 "C855" V 3550 3150 50  0000 L C
+F 1 "C" V 3400 3150 50  0000 L C
+	1    3500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R838
+U 1 1 44EF318A
+P 4700 3750
+F 0 "R838" V 4600 3750 50  0000 C C
+F 1 "R" V 4700 3750 50  0000 C C
+	1    4700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R837
+U 1 1 44EF3186
+P 4100 3650
+F 0 "R837" V 4180 3650 50  0000 C C
+F 1 "R" V 4100 3650 50  0000 C C
+	1    4100 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R836
+U 1 1 44EF3182
+P 4700 3400
+F 0 "R836" V 4600 3400 50  0000 C C
+F 1 "R" V 4700 3400 50  0000 C C
+	1    4700 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R835
+U 1 1 44EF317D
+P 4100 3300
+F 0 "R835" V 4180 3300 50  0000 C C
+F 1 "R" V 4100 3300 50  0000 C C
+	1    4100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C854
+U 1 1 44EF3103
+P 5100 4350
+F 0 "C854" H 4850 4450 50  0000 L C
+F 1 "100 nF" H 4800 4250 50  0000 L C
+	1    5100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 44EF30F0
+P 7050 5150
+F 0 "#PWR071" H 7050 5150 30  0001 C C
+F 1 "GND" H 7050 5080 30  0001 C C
+	1    7050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R834
+U 1 1 44EF30BA
+P 7450 4400
+F 0 "R834" V 7530 4400 50  0000 C C
+F 1 "10M" V 7450 4400 50  0000 C C
+	1    7450 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TPIC8101 U725
+U 1 1 44EF30AC
+P 6250 3550
+F 0 "U725" H 6250 4250 60  0000 C C
+F 1 "TPIC8101" H 6250 2900 60  0000 C C
+	1    6250 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

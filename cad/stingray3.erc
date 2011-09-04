@@ -1,0 +1,32 @@
+ERC control (23/2/2009-19:27:50)
+
+***** Sheet 1 (Root)
+
+***** Sheet 2 (PWR)
+ERC: Warning Pin power_in not driven (Net 127) (X= 2.950 inches, Y= 1.450 inches
+ERC: Warning Pin power_in not driven (Net 125) (X= 1.950 inches, Y= 6.700 inches
+ERC: Warning Pin power_in not driven (Net 119) (X= 1.400 inches, Y= 5.100 inches
+
+***** Sheet 3 (COMM)
+
+***** Sheet 4 (INPUT)
+
+***** Sheet 5 (IGNITION)
+
+***** Sheet 6 (MCU)
+
+***** Sheet 7 (EFI DRIVERS)
+
+***** Sheet 8 (CONNECTORS)
+
+***** Sheet 9 (ANALOG)
+
+***** Sheet 10 (TIMING)
+ERC: Warning Pin power_in not driven (Net 238) (X= 7.950 inches, Y= 2.400 inches
+ERC: Warning Pin power_in not driven (Net 237) (X= 7.950 inches, Y= 6.750 inches
+
+***** Sheet 11 (KNOCK)
+
+***** Sheet 12 (AMP)
+
+ >> Errors ERC: 5

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 27/8/2006-00:23:14
+#
+$CMP 74HC245
+D Octal BUS Transceivers, 3 State out
+K HCMOS BUS 3State
+$ENDCMP
+#
+$CMP 74LVX4245
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+$ENDCMP
+#
+#End Doc Library

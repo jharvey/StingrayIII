@@ -1,0 +1,575 @@
+EESchema Schematic File Version 2  date 25/06/2011 14:27:32
+LIBS:power
+LIBS:sharkey
+LIBS:stingray3
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:stingray3-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 4 11
+Title "TOP LEVEL ANALOG INPUTS"
+Date "25 jun 2011"
+Rev "C"
+Comp "Copyright (C) 2005-2009 by Pike Aerospace Research Corporation"
+Comment1 "AUTHOR: RM SHARKEY"
+Comment2 "STINGRAY III"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 3950 4750 3950
+Wire Wire Line
+	5000 3750 4750 3750
+Wire Wire Line
+	7500 1350 8350 1350
+Wire Wire Line
+	7500 1250 8350 1250
+Wire Wire Line
+	7500 1150 8350 1150
+Wire Wire Line
+	7500 1050 8350 1050
+Wire Wire Line
+	4750 5000 4900 5000
+Wire Wire Line
+	4900 5100 4750 5100
+Wire Wire Line
+	4750 4800 4900 4800
+Wire Wire Line
+	4900 4900 4750 4900
+Wire Wire Line
+	8400 4900 8400 5100
+Wire Wire Line
+	8400 5100 7950 5100
+Wire Wire Line
+	7950 5100 7950 4350
+Wire Wire Line
+	8300 4900 8300 5250
+Wire Wire Line
+	8500 4900 8500 5250
+Connection ~ 8500 5850
+Wire Wire Line
+	8800 6450 8800 6700
+Wire Wire Line
+	8800 5850 8800 6050
+Connection ~ 8800 5850
+Wire Wire Line
+	9200 5850 9200 6050
+Connection ~ 9200 5850
+Wire Wire Line
+	9200 6450 9200 6700
+Connection ~ 8800 6700
+Wire Wire Line
+	8300 5750 8300 5850
+Wire Wire Line
+	8300 5850 9550 5850
+Wire Wire Line
+	8500 5850 8500 5750
+Wire Wire Line
+	8400 5850 8400 6000
+Connection ~ 8400 5850
+Wire Wire Line
+	8400 6850 8400 6500
+Wire Wire Line
+	9200 6700 8400 6700
+Connection ~ 8400 6700
+Wire Wire Line
+	7150 2050 7150 2300
+Wire Wire Line
+	7150 3100 7150 2800
+Wire Wire Line
+	7150 3600 7150 3900
+Wire Wire Line
+	7700 2950 7150 2950
+Connection ~ 7150 2950
+Wire Wire Line
+	8650 2050 8650 2300
+Wire Wire Line
+	8650 3100 8650 2800
+Wire Wire Line
+	8650 3600 8650 3900
+Wire Wire Line
+	9200 2950 8650 2950
+Connection ~ 8650 2950
+Wire Wire Line
+	2800 4800 2600 4800
+Wire Wire Line
+	2600 4900 2800 4900
+Wire Wire Line
+	2800 5000 2600 5000
+Wire Wire Line
+	2600 5100 2800 5100
+Wire Wire Line
+	2500 1800 2800 1800
+Wire Wire Line
+	2800 1900 2500 1900
+Wire Wire Line
+	2500 2000 2800 2000
+Wire Wire Line
+	2800 2100 2500 2100
+Wire Wire Line
+	2500 2200 2800 2200
+Wire Wire Line
+	2800 2300 2500 2300
+Wire Wire Line
+	2500 2400 2800 2400
+Wire Wire Line
+	2800 2500 2500 2500
+Wire Wire Line
+	2500 2600 2800 2600
+Wire Wire Line
+	2800 2700 2500 2700
+Wire Wire Line
+	2500 2800 2800 2800
+Wire Wire Line
+	2800 2900 2500 2900
+Wire Wire Line
+	2500 3000 2800 3000
+Wire Wire Line
+	2800 3100 2500 3100
+Wire Wire Line
+	2500 3200 2800 3200
+Wire Wire Line
+	2800 3300 2500 3300
+Wire Wire Line
+	2500 3400 2800 3400
+Wire Wire Line
+	2800 3500 2500 3500
+Wire Wire Line
+	2500 3600 2800 3600
+Wire Wire Line
+	2800 3700 2500 3700
+Wire Wire Line
+	2500 3800 2800 3800
+Wire Wire Line
+	2800 3900 2500 3900
+Wire Wire Line
+	2500 4000 2800 4000
+Wire Wire Line
+	2800 4100 2500 4100
+Wire Wire Line
+	5000 1800 4750 1800
+Wire Wire Line
+	4750 1900 5000 1900
+Wire Wire Line
+	5000 2000 4750 2000
+Wire Wire Line
+	4750 2100 5000 2100
+Wire Wire Line
+	5000 2200 4750 2200
+Wire Wire Line
+	4750 2300 5000 2300
+Wire Wire Line
+	5000 2400 4750 2400
+Wire Wire Line
+	4750 2500 5000 2500
+Wire Wire Line
+	5000 2600 4750 2600
+Wire Wire Line
+	4750 2700 5000 2700
+Wire Wire Line
+	5000 2800 4750 2800
+Wire Wire Line
+	4750 2900 5000 2900
+Wire Wire Line
+	5000 3000 4750 3000
+Wire Wire Line
+	4750 3100 5000 3100
+Wire Wire Line
+	5000 3200 4750 3200
+Wire Wire Line
+	4750 3300 5000 3300
+Wire Wire Line
+	5000 3400 4750 3400
+Wire Wire Line
+	5000 3650 4750 3650
+Wire Wire Line
+	4750 3850 5000 3850
+Text HLabel 5000 3950 2    60   Input ~ 0
+AMP_CS
+Text HLabel 5000 3850 2    60   Input ~ 0
+AMP_SI
+Text HLabel 5000 3750 2    60   Output ~ 0
+AMP_SO
+Text HLabel 5000 3650 2    60   Input ~ 0
+AMP_SCK
+$Comp
+L ZENER D431
+U 1 1 49BB0855
+P 8800 6250
+F 0 "D431" H 8800 6350 50  0000 C CNN
+F 1 "4.7V" H 8800 6150 40  0000 C CNN
+	1    8800 6250
+	0    -1   -1   0   
+$EndComp
+Text Notes 7050 950  0    60   ~ 0
+AUXILIARY ANALOG INPUT HEADER
+Text HLabel 8350 1350 2    60   Output ~ 0
+AN_AUX1_D
+Text HLabel 8350 1250 2    60   Output ~ 0
+AN_AUX1_C
+Text HLabel 8350 1150 2    60   Output ~ 0
+AN_AUX1_B
+Text HLabel 8350 1050 2    60   Output ~ 0
+AN_AUX1_A
+$Comp
+L CONN_4 P2
+U 1 1 49A2F325
+P 7150 1200
+F 0 "P2" V 7100 1200 50  0000 C CNN
+F 1 "AUX1" V 7200 1200 50  0000 C CNN
+	1    7150 1200
+	-1   0    0    -1  
+$EndComp
+Text Notes 8800 4950 0    60   ~ 0
+SHOULD BE DIVIDED DOWN TO 5.0V
+Text Notes 8800 4800 0    60   ~ 0
+HIGHEST ANTICIPATED BATT VOLTAGE
+Text Notes 8700 4650 0    60   ~ 0
+CALIBRATION:
+Text Notes 8700 4500 0    60   ~ 0
+BATTERY VOLTAGE DIVIDER
+Text Notes 9000 2050 0    60   ~ 0
+ONBOARD SELF TEMP PROBES
+Text Notes 8650 5550 0    60   ~ 0
+24V
+Text Notes 8000 5550 0    60   ~ 0
+12V
+$Comp
+L VCC #PWR012
+U 1 1 4591542B
+P 7150 2050
+F 0 "#PWR012" H 7150 2150 30  0001 C CNN
+F 1 "VCC" H 7150 2150 30  0000 C CNN
+	1    7150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR013
+U 1 1 45915427
+P 8650 2050
+F 0 "#PWR013" H 8650 2150 30  0001 C CNN
+F 1 "VCC" H 8650 2150 30  0000 C CNN
+	1    8650 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 4100 0    60   Input ~ 0
+AN_IN23
+Text HLabel 2500 4000 0    60   Input ~ 0
+AN_IN22
+Text HLabel 2500 3900 0    60   Input ~ 0
+AN_IN21
+Text HLabel 2500 3800 0    60   Input ~ 0
+AN_IN20
+Text HLabel 2500 3700 0    60   Input ~ 0
+AN_IN19
+Text HLabel 2500 3600 0    60   Input ~ 0
+AN_IN18
+Text HLabel 2500 3500 0    60   Input ~ 0
+AN_IN17
+Text HLabel 2500 3400 0    60   Input ~ 0
+AN_IN16
+Text HLabel 2500 3300 0    60   Input ~ 0
+AN_IN15
+Text HLabel 2500 3200 0    60   Input ~ 0
+AN_IN14
+Text HLabel 2500 3100 0    60   Input ~ 0
+AN_IN13
+Text HLabel 2500 3000 0    60   Input ~ 0
+AN_IN12
+Text HLabel 2500 2900 0    60   Input ~ 0
+AN_IN11
+Text HLabel 2500 2800 0    60   Input ~ 0
+AN_IN10
+Text HLabel 2500 2700 0    60   Input ~ 0
+AN_IN9
+Text HLabel 2500 2600 0    60   Input ~ 0
+AN_IN8
+Text HLabel 2500 2500 0    60   Input ~ 0
+AN_IN7
+Text HLabel 2500 2400 0    60   Input ~ 0
+AN_IN6
+Text HLabel 2500 2300 0    60   Input ~ 0
+AN_IN5
+Text HLabel 2500 2200 0    60   Input ~ 0
+AN_IN4
+Text HLabel 2500 2100 0    60   Input ~ 0
+AN_IN3
+Text HLabel 2500 2000 0    60   Input ~ 0
+AN_IN2
+Text HLabel 2500 1900 0    60   Input ~ 0
+AN_IN1
+Text HLabel 2500 1800 0    60   Input ~ 0
+AN_IN0
+$Sheet
+S 2800 1650 1950 2600
+U 4A54A095
+F0 "ANALOG" 60
+F1 "analog.sch" 60
+F2 "AN_IN23" I L 2800 4100 60 
+F3 "AN_IN22" I L 2800 4000 60 
+F4 "AN_IN21" I L 2800 3900 60 
+F5 "AN_IN20" I L 2800 3800 60 
+F6 "AN_IN19" I L 2800 3700 60 
+F7 "AN_IN18" I L 2800 3600 60 
+F8 "AN_IN17" I L 2800 3500 60 
+F9 "AN_IN16" I L 2800 3400 60 
+F10 "AN_OUT16" O R 4750 3400 60 
+F11 "AN_IN15" I L 2800 3300 60 
+F12 "AN_IN14" I L 2800 3200 60 
+F13 "AN_IN13" I L 2800 3100 60 
+F14 "AN_IN12" I L 2800 3000 60 
+F15 "AN_OUT12" O R 4750 3000 60 
+F16 "AN_OUT13" O R 4750 3100 60 
+F17 "AN_OUT15" O R 4750 3300 60 
+F18 "AN_OUT14" O R 4750 3200 60 
+F19 "AN_IN11" I L 2800 2900 60 
+F20 "AN_IN10" I L 2800 2800 60 
+F21 "AN_IN9" I L 2800 2700 60 
+F22 "AN_IN8" I L 2800 2600 60 
+F23 "AN_OUT8" O R 4750 2600 60 
+F24 "AN_OUT9" O R 4750 2700 60 
+F25 "AN_OUT11" O R 4750 2900 60 
+F26 "AN_OUT10" O R 4750 2800 60 
+F27 "AN_IN7" I L 2800 2500 60 
+F28 "AN_IN6" I L 2800 2400 60 
+F29 "AN_IN5" I L 2800 2300 60 
+F30 "AN_IN4" I L 2800 2200 60 
+F31 "AN_OUT4" O R 4750 2200 60 
+F32 "AN_OUT5" O R 4750 2300 60 
+F33 "AN_OUT7" O R 4750 2500 60 
+F34 "AN_OUT6" O R 4750 2400 60 
+F35 "AN_IN3" I L 2800 2100 60 
+F36 "AN_IN2" I L 2800 2000 60 
+F37 "AN_IN1" I L 2800 1900 60 
+F38 "AN_IN0" I L 2800 1800 60 
+F39 "AN_OUT0" O R 4750 1800 60 
+F40 "AN_OUT1" O R 4750 1900 60 
+F41 "AN_OUT3" O R 4750 2100 60 
+F42 "AN_OUT2" O R 4750 2000 60 
+F43 "AMP_SO" O R 4750 3750 60 
+F44 "AMP_SCK" I R 4750 3650 60 
+F45 "AMP_SI" I R 4750 3850 60 
+F46 "AMP_CS" I R 4750 3950 60 
+$EndSheet
+$Sheet
+S 2800 4650 1950 650 
+U 4A54A097
+F0 "TIMING" 60
+F1 "timing.sch" 60
+F2 "TIMING_IN2" I R 4750 5000 60 
+F3 "TIMING_IN1" I R 4750 4900 60 
+F4 "TIMING2" O L 2800 5000 60 
+F5 "TIMING1" O L 2800 4900 60 
+F6 "TIMING_IN3" I R 4750 5100 60 
+F7 "TIMING3" O L 2800 5100 60 
+F8 "TIMING_IN0" I R 4750 4800 60 
+F9 "TIMING0" O L 2800 4800 60 
+$EndSheet
+$Comp
+L GND #PWR014
+U 1 1 44F11C5C
+P 11250 2100
+F 0 "#PWR014" H 11250 2100 30  0001 C CNN
+F 1 "GND" H 11250 2030 30  0001 C CNN
+	1    11250 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 9200 2950 2    60   Output ~ 0
+TEMP2
+$Comp
+L GND #PWR015
+U 1 1 44E0CA9F
+P 8650 3900
+F 0 "#PWR015" H 8650 3900 30  0001 C CNN
+F 1 "GND" H 8650 3830 30  0001 C CNN
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R432
+U 1 1 44E0CA9D
+P 8650 3350
+F 0 "R432" V 8730 3350 50  0000 C CNN
+F 1 "10K" V 8650 3350 50  0000 C CNN
+	1    8650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR402
+U 1 1 44E0CA9C
+P 8650 2550
+F 0 "VR402" V 8730 2550 50  0000 C CNN
+F 1 "10K @ 25C" V 8550 2550 50  0000 C CNN
+F 4 "C100F103J" V 8830 2650 60  0000 C CNN "Field1"
+	1    8650 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 7700 2950 2    60   Output ~ 0
+TEMP1
+$Comp
+L GND #PWR016
+U 1 1 44E0C9EE
+P 7150 3900
+F 0 "#PWR016" H 7150 3900 30  0001 C CNN
+F 1 "GND" H 7150 3830 30  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R431
+U 1 1 44E0C9D0
+P 7150 3350
+F 0 "R431" V 7230 3350 50  0000 C CNN
+F 1 "10K" V 7150 3350 50  0000 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR401
+U 1 1 44E0C887
+P 7150 2550
+F 0 "VR401" V 7230 2550 50  0000 C CNN
+F 1 "10K @ 25C" V 7050 2550 50  0000 C CNN
+F 4 "C100F103J" V 7330 2650 60  0000 C CNN "Field1"
+	1    7150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C431
+U 1 1 44E0C616
+P 9200 6250
+F 0 "C431" H 9250 6350 50  0000 L CNN
+F 1 "100 nF" H 9250 6150 50  0000 L CNN
+	1    9200 6250
+	1    0    0    -1  
+$EndComp
+Text HLabel 9550 5850 2    60   Output ~ 0
+VBATT
+$Comp
+L R R445
+U 1 1 44E0C449
+P 8400 6250
+F 0 "R445" V 8480 6250 50  0000 C CNN
+F 1 "33K" V 8400 6250 50  0000 C CNN
+	1    8400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R433
+U 1 1 44E0C444
+P 8300 5500
+F 0 "R433" V 8380 5500 50  0000 C CNN
+F 1 "100K" V 8300 5500 50  0000 C CNN
+	1    8300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R444
+U 1 1 44E0C429
+P 8500 5500
+F 0 "R444" V 8580 5500 50  0000 C CNN
+F 1 "200K" V 8500 5500 50  0000 C CNN
+	1    8500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 J431
+U 1 1 44E0C3EF
+P 8400 4550
+F 0 "J431" V 8350 4550 50  0000 C CNN
+F 1 "12V24" V 8450 4550 40  0000 C CNN
+	1    8400 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +BATT #PWR017
+U 1 1 44E0C3AF
+P 7950 4350
+F 0 "#PWR017" H 7950 4300 20  0001 C CNN
+F 1 "+BATT" H 7950 4450 30  0000 C CNN
+	1    7950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 44E0C378
+P 8400 6850
+F 0 "#PWR018" H 8400 6850 30  0001 C CNN
+F 1 "GND" H 8400 6780 30  0001 C CNN
+	1    8400 6850
+	1    0    0    -1  
+$EndComp
+Text HLabel 5000 3400 2    60   Output ~ 0
+AN_OUT16
+Text HLabel 4900 4900 2    60   Input ~ 0
+TIMING_IN1
+Text HLabel 4900 4800 2    60   Input ~ 0
+TIMING_IN0
+Text HLabel 2600 4900 0    60   Output ~ 0
+TIMING1
+Text HLabel 2600 4800 0    60   Output ~ 0
+TIMING0
+Text HLabel 4900 5100 2    60   Input ~ 0
+TIMING_IN3
+Text HLabel 4900 5000 2    60   Input ~ 0
+TIMING_IN2
+Text HLabel 2600 5100 0    60   Output ~ 0
+TIMING3
+Text HLabel 2600 5000 0    60   Output ~ 0
+TIMING2
+Text HLabel 5000 3000 2    60   Output ~ 0
+AN_OUT12
+Text HLabel 5000 3100 2    60   Output ~ 0
+AN_OUT13
+Text HLabel 5000 3300 2    60   Output ~ 0
+AN_OUT15
+Text HLabel 5000 3200 2    60   Output ~ 0
+AN_OUT14
+Text HLabel 5000 2600 2    60   Output ~ 0
+AN_OUT8
+Text HLabel 5000 2700 2    60   Output ~ 0
+AN_OUT9
+Text HLabel 5000 2900 2    60   Output ~ 0
+AN_OUT11
+Text HLabel 5000 2800 2    60   Output ~ 0
+AN_OUT10
+Text HLabel 5000 2200 2    60   Output ~ 0
+AN_OUT4
+Text HLabel 5000 2300 2    60   Output ~ 0
+AN_OUT5
+Text HLabel 5000 2500 2    60   Output ~ 0
+AN_OUT7
+Text HLabel 5000 2400 2    60   Output ~ 0
+AN_OUT6
+Text HLabel 5000 1800 2    60   Output ~ 0
+AN_OUT0
+Text HLabel 5000 1900 2    60   Output ~ 0
+AN_OUT1
+Text HLabel 5000 2100 2    60   Output ~ 0
+AN_OUT3
+Text HLabel 5000 2000 2    60   Output ~ 0
+AN_OUT2
+$EndSCHEMATC

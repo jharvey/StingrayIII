@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 16/9/2006-06:33:07
+#
+$CMP TPS733xx
+D MICROPOWER 300mA Regulator 
+K REGUL POWER  
+$ENDCMP
+#
+#End Doc Library

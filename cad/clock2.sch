@@ -1,0 +1,438 @@
+EESchema Schematic File Version 1
+LIBS:power,/home/michael/Documents/projects/ecu/cad/stingray3/stingray3,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,microchip,analog_switches,motorola,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib
+EELAYER 23  0
+EELAYER END
+$Descr A 11000 8000
+Sheet 1 1
+Title "10 MHz dual clock with RESET toggle"
+Date "17 sep 2006"
+Rev "A"
+Comp "Copyright (C) 2006 by Pike Aerospace Research Corporation"
+Comment1 "[DRAFT]"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3650 4850 3150 4850
+Wire Wire Line
+	3150 4850 3150 6150
+Wire Wire Line
+	3150 6150 7150 6150
+Wire Wire Line
+	7150 6150 7150 3500
+Wire Wire Line
+	6150 3150 6150 3000
+$Comp
+L GND #PWR?
+U 1 1 450CFBAE
+P 6150 3150
+F 0 "#PWR?" H 6150 3150 30  0001 C C
+F 1 "GND" H 6150 3080 30  0001 C C
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3000 6000 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	5600 3000 5450 3000
+$Comp
+L C C?
+U 1 1 450CF9C2
+P 5800 3000
+F 0 "C?" H 5850 3100 50  0000 L C
+F 1 "C" H 5850 2900 50  0000 L C
+	1    5800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 450CF9A9
+P 5450 2900
+F 0 "#PWR?" H 5450 2860 30  0001 C C
+F 1 "+3.3V" H 5450 3010 30  0000 C C
+	1    5450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 450CF9A4
+P 5450 3950
+F 0 "#PWR?" H 5450 3950 30  0001 C C
+F 1 "GND" H 5450 3880 30  0001 C C
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3950 5450 3800
+Wire Wire Line
+	5450 3800 5700 3800
+Wire Wire Line
+	5450 2900 5450 3500
+Wire Wire Line
+	5450 3500 5700 3500
+Wire Wire Line
+	8550 3900 8700 3900
+Wire Wire Line
+	8700 3900 8700 5050
+Wire Wire Line
+	8700 5050 5050 5050
+Wire Wire Line
+	8650 3700 8550 3700
+Wire Wire Line
+	7350 3800 6800 3800
+Wire Wire Line
+	7150 3500 6800 3500
+$Comp
+L SN74AHC1G32 U154
+U 1 1 450CF928
+P 7950 3800
+F 0 "U154" H 7950 3850 60  0000 C C
+F 1 "SN74AHC1G32" H 7950 3550 60  0000 C C
+	1    7950 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 2100 5200 2100
+Wire Wire Line
+	5200 2100 5200 4400
+Wire Wire Line
+	2750 4100 2750 4250
+Wire Wire Line
+	2750 4250 2950 4250
+Wire Wire Line
+	3650 4250 3450 4250
+Connection ~ 3300 5550
+Wire Wire Line
+	7450 5750 3300 5750
+Wire Wire Line
+	3300 5750 3300 5200
+$Comp
+L GND #PWR?
+U 1 1 450CF500
+P 3500 5950
+F 0 "#PWR?" H 3500 5950 30  0001 C C
+F 1 "GND" H 3500 5880 30  0001 C C
+	1    3500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5950 3500 4350
+Connection ~ 5200 3650
+Wire Wire Line
+	5700 3650 4550 3650
+Wire Wire Line
+	5200 4400 5850 4400
+Wire Wire Line
+	6750 4400 7000 4400
+Wire Wire Line
+	7000 4400 7000 3650
+Wire Wire Line
+	7000 3650 6800 3650
+Wire Wire Line
+	9850 3700 9550 3700
+$Comp
+L SN74LVC04G204 U153
+U 2 1 450CF44E
+P 9100 3700
+F 0 "U153" H 9250 3800 40  0000 C C
+F 1 "SN74LVC04G204" H 9100 3500 40  0000 C C
+	2    9100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SN74LVC04G204 U153
+U 1 1 450CF401
+P 6300 4400
+F 0 "U153" H 6450 4500 40  0000 C C
+F 1 "SN74LVC04G204" H 6300 4200 40  0000 C C
+	1    6300 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SN74LVC1G175 U151
+U 1 1 450CF104
+P 6250 3650
+F 0 "U151" H 6200 3350 60  0000 C C
+F 1 "SN74LVC1G175" H 6250 3950 60  0000 C C
+	1    6250 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 5400
+Wire Wire Line
+	3650 5400 3500 5400
+$Comp
+L R R152
+U 1 1 450CEF3F
+P 3200 4250
+F 0 "R152" V 3280 4250 50  0000 C C
+F 1 "10K" V 3200 4250 50  0000 C C
+	1    3200 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 450CEF36
+P 2750 4100
+F 0 "#PWR?" H 2750 4060 30  0001 C C
+F 1 "+3.3V" H 2750 4210 30  0000 C C
+	1    2750 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 3500
+Wire Wire Line
+	2600 3500 2600 5300
+Wire Wire Line
+	2600 5300 3650 5300
+Wire Wire Line
+	3300 5550 3650 5550
+Text GLabel 7450 5750 2    60   Input
+POR
+Wire Wire Line
+	3300 5200 3650 5200
+Connection ~ 3500 5050
+Wire Wire Line
+	3650 5050 3500 5050
+Connection ~ 3500 4950
+Wire Wire Line
+	3650 4950 3500 4950
+Connection ~ 3500 4750
+Wire Wire Line
+	3650 4750 3500 4750
+Connection ~ 3500 4650
+Wire Wire Line
+	3650 4650 3500 4650
+Connection ~ 3500 4550
+Wire Wire Line
+	3650 4550 3500 4550
+Connection ~ 3500 4450
+Wire Wire Line
+	3650 4450 3500 4450
+Wire Wire Line
+	3500 4350 3650 4350
+$Comp
+L 74LS166 U152
+U 1 1 450CEDFA
+P 4350 4900
+F 0 "U152" H 4350 5150 60  0000 C C
+F 1 "74LS166" H 4350 4950 60  0000 C C
+	1    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LVC1G125 U142
+U 1 1 450C49AC
+P 4000 3500
+F 0 "U142" H 3950 3200 60  0000 C C
+F 1 "SN74LVC1G125" H 4000 3800 60  0000 C C
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LVC1G126 U141
+U 1 1 450C49A0
+P 4000 1950
+F 0 "U141" H 3950 1650 60  0000 C C
+F 1 "SN74LVC1G126" H 4000 2250 60  0000 C C
+	1    4000 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 3700 2    60   Input
+RESET
+Connection ~ 5000 1950
+Wire Wire Line
+	7400 1950 4550 1950
+Connection ~ 3100 2100
+Wire Wire Line
+	3100 2300 3100 1750
+Connection ~ 3100 3650
+Wire Wire Line
+	3100 3850 3100 3300
+Wire Wire Line
+	3100 3650 3450 3650
+Connection ~ 3100 2850
+Wire Wire Line
+	3100 2800 3100 2900
+Wire Wire Line
+	3100 2850 3350 2850
+Wire Wire Line
+	3350 2850 3350 3350
+Connection ~ 3100 1300
+Wire Wire Line
+	3100 1300 3350 1300
+Wire Wire Line
+	3350 1300 3350 1800
+Wire Wire Line
+	3100 1350 3100 1250
+Wire Wire Line
+	3100 2100 3450 2100
+Wire Wire Line
+	4550 3500 5000 3500
+$Comp
+L GND #PWR?
+U 1 1 450C3F11
+P 1000 4050
+F 0 "#PWR?" H 1000 4050 30  0001 C C
+F 1 "GND" H 1000 3980 30  0001 C C
+	1    1000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 450C3F0C
+P 3100 3850
+F 0 "#PWR?" H 3100 3850 30  0001 C C
+F 1 "GND" H 3100 3780 30  0001 C C
+	1    3100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 450C3F07
+P 3100 2300
+F 0 "#PWR?" H 3100 2300 30  0001 C C
+F 1 "GND" H 3100 2230 30  0001 C C
+	1    3100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 450C3F00
+P 1000 2500
+F 0 "#PWR?" H 1000 2500 30  0001 C C
+F 1 "GND" H 1000 2430 30  0001 C C
+	1    1000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 450C3EF5
+P 1000 3250
+F 0 "#PWR?" H 1000 3210 30  0001 C C
+F 1 "+3.3V" H 1000 3360 30  0000 C C
+	1    1000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 450C3EEE
+P 1000 1700
+F 0 "#PWR?" H 1000 1660 30  0001 C C
+F 1 "+3.3V" H 1000 1810 30  0000 C C
+	1    1000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR?
+U 1 1 450C3EE3
+P 3100 2800
+F 0 "#PWR?" H 3100 2940 20  0001 C C
+F 1 "+1.8V" H 3100 2910 30  0000 C C
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR?
+U 1 1 450C3EDD
+P 3100 1250
+F 0 "#PWR?" H 3100 1390 20  0001 C C
+F 1 "+1.8V" H 3100 1360 30  0000 C C
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1000 3950
+Wire Wire Line
+	1000 4050 1000 3850
+Wire Wire Line
+	1000 3950 1300 3950
+Wire Wire Line
+	1300 3950 1300 3650
+Wire Wire Line
+	1300 3650 1400 3650
+Connection ~ 1000 2400
+Wire Wire Line
+	1000 2500 1000 2300
+Wire Wire Line
+	1000 2400 1300 2400
+Wire Wire Line
+	1300 2400 1300 2100
+Wire Wire Line
+	1300 2100 1400 2100
+Wire Wire Line
+	3350 1800 3450 1800
+Wire Wire Line
+	3350 3350 3450 3350
+Connection ~ 1000 3350
+Wire Wire Line
+	1000 3250 1000 3450
+Connection ~ 1000 1800
+Wire Wire Line
+	1000 1700 1000 1900
+Wire Wire Line
+	1000 3350 1400 3350
+Wire Wire Line
+	1000 1800 1400 1800
+$Comp
+L C C132
+U 1 1 450C3E53
+P 1000 3650
+F 0 "C132" H 1050 3750 50  0000 L C
+F 1 "0.1uF" H 700 3550 50  0000 L C
+	1    1000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C131
+U 1 1 450C3E3B
+P 1000 2100
+F 0 "C131" H 1050 2200 50  0000 L C
+F 1 "0.1uF" H 700 2000 50  0000 L C
+	1    1000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C141
+U 1 1 450C3E30
+P 3100 1550
+F 0 "C141" H 3150 1650 50  0000 L C
+F 1 "0.1uF" H 2800 1450 50  0000 L C
+	1    3100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C142
+U 1 1 450C3E21
+P 3100 3100
+F 0 "C142" H 3150 3200 50  0000 L C
+F 1 "0.1uF" H 2800 3000 50  0000 L C
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3500 3450 3500
+Wire Wire Line
+	2500 1950 3450 1950
+Text GLabel 7400 1950 2    60   Output
+CLOCKOUT
+Wire Wire Line
+	5000 3500 5000 1950
+$Comp
+L MAX7381 U131
+U 1 1 450C3B88
+P 1950 1950
+F 0 "U131" H 1900 1650 60  0000 C C
+F 1 "MAX7381AXR106" H 1950 2250 60  0000 C C
+	1    1950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX7381 U132
+U 1 1 450C3B81
+P 1950 3500
+F 0 "U132" H 1900 3200 60  0000 C C
+F 1 "MAX7381AXR106" H 1950 3800 60  0000 C C
+	1    1950 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

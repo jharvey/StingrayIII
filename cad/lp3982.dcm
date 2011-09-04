@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 16/9/2006-04:51:07
+#
+$CMP LP3982
+D MICROPOWER 300mA Regulator 
+K REGUL POWER  
+$ENDCMP
+#
+#End Doc Library

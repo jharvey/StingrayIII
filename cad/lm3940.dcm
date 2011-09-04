@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 12/8/2006-03:08:48
+#
+$CMP LM3940
+D Linear Regulator +3.3V
+K POWER REGUL
+F regulator/lm39*.*
+$ENDCMP
+#
+#End Doc Library
